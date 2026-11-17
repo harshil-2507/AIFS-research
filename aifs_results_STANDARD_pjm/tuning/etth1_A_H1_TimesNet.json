@@ -1,0 +1,1 @@
+{"params": {"L": 168, "lr": 0.001, "wd": 1e-05, "bs": 128, "d_model": 64, "hidden": 32, "layers": 2, "k_periods": 3, "dropout": 0.1}, "value": 0.004632850643247366, "n_trials": 6, "n_complete": 3}

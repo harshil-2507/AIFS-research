@@ -1,0 +1,1 @@
+{"params": {"L": 168, "lr": 0.001, "wd": 1e-05, "bs": 128, "channels": 32, "kernel": 3, "levels": 5, "dropout": 0.1}, "value": 0.03628219664096832, "n_trials": 8, "n_complete": 8}

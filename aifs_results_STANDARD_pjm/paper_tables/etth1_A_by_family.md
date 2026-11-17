@@ -1,0 +1,16 @@
+| Horizon (h) | Family | Model | RMSE (°C) | NRMSE (%) | MASE |
+|---|---|---|---|---|---|
+| 1 | Ensemble | Ens-Top3-Mean | 0.6130 | 7.94 | 0.174 |
+| 1 | Foundation | TiRex | 0.6224 | 8.06 | 0.177 |
+| 1 | Transformer | Informer | 0.6256 | 8.10 | 0.181 |
+| 1 | Deep learning | TCN | 0.6307 | 8.17 | 0.183 |
+| 1 | Baseline | Ridge | 0.6377 | 8.26 | 0.187 |
+| 1 | Generative | CVAE | 0.6549 | 8.48 | 0.190 |
+| 1 | Tree/ML | ExtraTrees | 0.6593 | 8.54 | 0.192 |
+| 24 | Ensemble | Ens-Top5-InvMSE | 1.6906 | 21.89 | 0.514 |
+| 24 | Foundation | TiRex | 1.7111 | 22.16 | 0.522 |
+| 24 | Deep learning | MLP | 1.7871 | 23.15 | 0.546 |
+| 24 | Transformer | TimesNet | 1.7964 | 23.27 | 0.551 |
+| 24 | Baseline | Ridge | 1.8080 | 23.42 | 0.554 |
+| 24 | Generative | CVAE | 1.8597 | 24.09 | 0.582 |
+| 24 | Tree/ML | RandomForest | 2.5540 | 33.08 | 0.837 |

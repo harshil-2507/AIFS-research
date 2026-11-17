@@ -1,0 +1,1 @@
+{"params": {"n_estimators": 300, "num_leaves": 31, "lr": 0.05, "subsample": 0.8, "colsample": 0.8, "min_child_samples": 20, "reg_alpha": 1e-08, "reg_lambda": 1.0}, "value": 0.553345965466811, "n_trials": 10, "n_complete": 10}

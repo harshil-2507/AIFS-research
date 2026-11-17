@@ -1,0 +1,2 @@
+number,value,datetime_start,datetime_complete,duration,params_L,params_bs,params_dropout,params_hidden,params_layers,params_lr,params_wd,user_attrs_best_epoch,system_attrs_fixed_params,state
+0,0.0037892023101449013,2026-11-02 17:37:48.726758,2026-11-02 18:46:38.013291,0 days 01:08:49.286533,168,128,0.1,64,1,0.001,1e-05,30,"{'L': 168, 'lr': 0.001, 'wd': 1e-05, 'bs': 128, 'hidden': 64, 'layers': 1, 'dropout': 0.1}",COMPLETE

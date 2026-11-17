@@ -1,0 +1,9 @@
+horizon,1,1,1,24
+dataset,etth1,ihepc,pjm,etth1
+family,,,,
+Baseline,1.0246,1.1189,1.5715,1.0117
+Deep learning,1.0133,,1.0,1.0
+Foundation,1.0,,,
+Generative,1.0522,,,
+Transformer,1.0052,,,
+Tree/ML,1.0593,1.0,1.1791,1.4291

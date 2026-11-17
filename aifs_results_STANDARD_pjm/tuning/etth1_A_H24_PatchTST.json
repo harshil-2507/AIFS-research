@@ -1,0 +1,1 @@
+{"params": {"L": 168, "lr": 0.001, "wd": 1e-05, "bs": 128, "d_model": 64, "heads": 4, "layers": 2, "ff": 2, "dropout": 0.1, "patch_len": 16, "stride_div": 2}, "value": 0.03476059436798096, "n_trials": 6, "n_complete": 3}

@@ -1,0 +1,37 @@
+| Rank | Model | Family | RMSE (°C) | MAE (°C) | NRMSE (%) | MASE | R² | Skill vs SN-24 (%) | vs best (DM, 5%) |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Ens-Top5-InvMSE | Ensemble | 1.6906 | 1.2133 | 21.89 | 0.514 | 0.760 | 24.5 | best |
+| 2 | Ens-Top3-Mean | Ensemble | 1.7012 | 1.2297 | 22.03 | 0.521 | 0.757 | 24.1 | n.s. |
+| 3 | TiRex | Foundation | 1.7111 | 1.2326 | 22.16 | 0.522 | 0.754 | 23.6 | n.s. |
+| 4 | Chronos-2 | Foundation | 1.7379 | 1.2493 | 22.51 | 0.529 | 0.746 | 22.4 | sig. worse |
+| 5 | TimesFM-2.5 | Foundation | 1.7469 | 1.2626 | 22.62 | 0.535 | 0.743 | 22.0 | sig. worse |
+| 6 | Chronos-Bolt-small | Foundation | 1.7710 | 1.2604 | 22.94 | 0.534 | 0.736 | 21.0 | sig. worse |
+| 7 | MLP | Deep learning | 1.7871 | 1.2886 | 23.15 | 0.546 | 0.731 | 20.2 | sig. worse |
+| 8 | TimesNet | Transformer | 1.7964 | 1.3014 | 23.27 | 0.551 | 0.729 | 19.8 | sig. worse |
+| 9 | BiLSTM | Deep learning | 1.8055 | 1.3025 | 23.38 | 0.552 | 0.726 | 19.4 | sig. worse |
+| 10 | Ridge | Baseline | 1.8080 | 1.3084 | 23.42 | 0.554 | 0.725 | 19.3 | sig. worse |
+| 11 | iTransformer | Transformer | 1.8118 | 1.3238 | 23.46 | 0.561 | 0.724 | 19.1 | sig. worse |
+| 12 | DLinear | Transformer | 1.8167 | 1.3137 | 23.53 | 0.557 | 0.722 | 18.9 | sig. worse |
+| 13 | Chronos-Bolt-base | Foundation | 1.8174 | 1.2976 | 23.54 | 0.550 | 0.722 | 18.9 | sig. worse |
+| 14 | Informer | Transformer | 1.8475 | 1.3508 | 23.93 | 0.572 | 0.713 | 17.5 | sig. worse |
+| 15 | CNN-LSTM | Deep learning | 1.8499 | 1.3550 | 23.96 | 0.574 | 0.712 | 17.4 | sig. worse |
+| 16 | LSTM | Deep learning | 1.8506 | 1.3449 | 23.97 | 0.570 | 0.712 | 17.4 | sig. worse |
+| 17 | GRU | Deep learning | 1.8565 | 1.3482 | 24.04 | 0.571 | 0.710 | 17.1 | sig. worse |
+| 18 | CVAE | Generative | 1.8597 | 1.3739 | 24.09 | 0.582 | 0.709 | 17.0 | sig. worse |
+| 19 | TSMixer | Transformer | 1.8599 | 1.3629 | 24.09 | 0.577 | 0.709 | 17.0 | sig. worse |
+| 20 | TFT | Transformer | 1.8802 | 1.3800 | 24.35 | 0.585 | 0.703 | 16.1 | sig. worse |
+| 21 | N-HiTS | Deep learning | 1.9003 | 1.3796 | 24.61 | 0.584 | 0.696 | 15.2 | sig. worse |
+| 22 | N-BEATS | Deep learning | 1.9288 | 1.3992 | 24.98 | 0.593 | 0.687 | 13.9 | sig. worse |
+| 23 | Persistence | Baseline | 1.9510 | 1.4421 | 25.27 | 0.611 | 0.680 | 12.9 | sig. worse |
+| 24 | Autoformer | Transformer | 1.9586 | 1.4483 | 25.37 | 0.614 | 0.677 | 12.6 | sig. worse |
+| 25 | Transformer | Transformer | 1.9727 | 1.4328 | 25.55 | 0.607 | 0.673 | 12.0 | sig. worse |
+| 26 | TCN | Deep learning | 1.9845 | 1.4572 | 25.70 | 0.617 | 0.669 | 11.4 | sig. worse |
+| 27 | PatchTST | Transformer | 2.0788 | 1.5278 | 26.92 | 0.647 | 0.637 | 7.2 | sig. worse |
+| 28 | SeasonalNaive-24 | Baseline | 2.2406 | 1.7160 | 29.02 | 0.727 | 0.578 | 0.0 | sig. worse |
+| 29 | RandomForest | Tree/ML | 2.5540 | 1.9761 | 33.08 | 0.837 | 0.451 | -14.0 | sig. worse |
+| 30 | XGBoost | Tree/ML | 2.5796 | 1.9666 | 33.41 | 0.833 | 0.440 | -15.1 | sig. worse |
+| 31 | ExtraTrees | Tree/ML | 2.6279 | 2.0497 | 34.03 | 0.868 | 0.419 | -17.3 | sig. worse |
+| 32 | LightGBM | Tree/ML | 2.6323 | 2.0097 | 34.09 | 0.851 | 0.417 | -17.5 | sig. worse |
+| 33 | Prophet-Anchored | Baseline | 2.8713 | 2.2348 | 37.19 | 0.947 | 0.307 | -28.2 | sig. worse |
+| 34 | SeasonalNaive-168 | Baseline | 3.7596 | 2.8746 | 48.69 | 1.218 | -0.189 | -67.8 | sig. worse |
+| 35 | Prophet | Baseline | 4.2646 | 3.4769 | 55.23 | 1.473 | -0.530 | -90.3 | sig. worse |

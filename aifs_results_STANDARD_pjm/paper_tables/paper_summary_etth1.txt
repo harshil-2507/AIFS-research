@@ -1,0 +1,5 @@
+Test period 2018-02-01 to 2018-06-26 (3484 h); mean test load 7.7 °C.
+
+At a 1-hour horizon the best individual model on etth1 (Setting A) was TiRex (RMSE 0.6224 °C, NRMSE 8.06%, MASE 0.177). 1 other model(s) were not significantly worse than the overall best (Ens-Top3-Mean) under a Diebold-Mariano test at the 5% level, so the ranking among these models should be read as a statistical tie.
+
+At a 24-hour horizon the best individual model on etth1 (Setting A) was TiRex (RMSE 1.7111 °C, NRMSE 22.16%, MASE 0.522). 2 other model(s) were not significantly worse than the overall best (Ens-Top5-InvMSE) under a Diebold-Mariano test at the 5% level, so the ranking among these models should be read as a statistical tie.

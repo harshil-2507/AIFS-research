@@ -1,0 +1,9 @@
+Horizon (h),Role,Model,RMSE (°C),NRMSE (%),MASE,vs Persistence (%),vs SN-24 (%)
+1,Best single model,TiRex,0.6224,8.06,0.177,4.9,72.2
+1,Best ensemble,Ens-Top3-Mean,0.6130,7.94,0.174,6.3,72.6
+1,Persistence,Persistence,0.6542,8.47,0.190,0.0,70.7
+1,Seasonal-naive-24,SeasonalNaive-24,2.2365,28.97,0.726,-241.9,0.0
+24,Best single model,TiRex,1.7111,22.16,0.522,12.3,23.6
+24,Best ensemble,Ens-Top5-InvMSE,1.6906,21.89,0.514,13.3,24.5
+24,Persistence,Persistence,1.9510,25.27,0.611,0.0,12.9
+24,Seasonal-naive-24,SeasonalNaive-24,2.2406,29.02,0.727,-14.8,0.0

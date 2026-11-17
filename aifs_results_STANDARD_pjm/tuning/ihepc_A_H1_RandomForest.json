@@ -1,0 +1,1 @@
+{"params": {"n_estimators": 100, "max_depth": 20, "min_samples_leaf": 2, "max_features": 0.6}, "value": 0.5697934876392877, "n_trials": 10, "n_complete": 10}

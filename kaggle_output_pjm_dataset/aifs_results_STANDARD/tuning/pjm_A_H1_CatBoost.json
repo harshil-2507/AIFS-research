@@ -1,0 +1,1 @@
+{"params": {"n_estimators": 300, "depth": 6, "lr": 0.05, "l2_leaf_reg": 3.0}, "value": 0.10685316210380474, "n_trials": 10, "n_complete": 10}

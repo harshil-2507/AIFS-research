@@ -1,0 +1,1 @@
+{"params": {"L": 168, "lr": 0.001, "wd": 1e-05, "bs": 128, "d_model": 64, "heads": 4, "dropout": 0.1}, "value": 0.03688986226916313, "n_trials": 4, "n_complete": 4}

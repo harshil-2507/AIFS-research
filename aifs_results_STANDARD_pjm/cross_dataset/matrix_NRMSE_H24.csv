@@ -1,0 +1,13 @@
+model,etth1
+MLP,23.145
+Ridge,23.416
+LSTM,23.968
+Persistence,25.267
+SeasonalNaive-24,29.018
+RandomForest,33.077
+XGBoost,33.41
+ExtraTrees,34.034
+LightGBM,34.092
+Prophet-Anchored,37.187
+SeasonalNaive-168,48.692
+Prophet,55.232

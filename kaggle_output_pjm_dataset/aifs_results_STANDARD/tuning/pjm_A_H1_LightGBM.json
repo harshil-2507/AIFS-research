@@ -1,0 +1,1 @@
+{"params": {"n_estimators": 187, "num_leaves": 141, "lr": 0.04345454109729477, "subsample": 0.645614570099021, "colsample": 0.8059264473611898, "min_child_samples": 18, "reg_alpha": 4.258943089524393e-06, "reg_lambda": 0.029204338471814112}, "value": 0.09601833987120703, "n_trials": 10, "n_complete": 10}

@@ -1,0 +1,1 @@
+{"params": {"L": 168, "lr": 0.001, "wd": 1e-05, "bs": 128, "kernel": 25}, "value": 0.00435887323692441, "n_trials": 8, "n_complete": 5}
